@@ -17,6 +17,9 @@ This repository contains two C++20 applications that use Boost, Redis, and Asio.
 Before building, define the environment variable pointing to your deployed Boost directory:
 ```bash
 export BOOST_DEPLOYED_DIRECTORY=<your CEPH workspace>/ceph/build/
+cmake .
+or 
+BOOST_DEPLOYED_DIRECTORY=<your CEPH workspace>/ceph/build/ cmake .
 
 ## Running
 both applications enable to control
